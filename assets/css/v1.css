@@ -1,7 +1,4 @@
-/* ==========================================================================
-   Andromeda v1 — 1:1 structure/spacing of rushtranslate.com, Andromeda brand.
-   Measured reference values are kept verbatim (px) and noted inline.
-   ========================================================================== */
+
 :root{
   --ink:#1c1c1b; --body:rgba(28,28,27,.79); --muted:rgba(28,28,27,.63); --faint:rgba(28,28,27,.46);
   --line:#e0ded7; --line-2:#edece8; --soft:#fafaf7; --soft-2:#f7f7f2; --soft-3:#f2f2ea; --card:#edece8;
@@ -33,7 +30,7 @@ p{margin:0 0 16px}
 .skip:focus{left:8px}
 :focus-visible{outline:2px solid var(--violet);outline-offset:3px;border-radius:6px}
 
-/* gradient headline — rushtranslate .headline-gradient + text_animate (3s alternate) */
+
 .headline-gradient{-webkit-text-fill-color:transparent;background:linear-gradient(90deg,#FE6347,#E3496D,#C23C8E,#9E09C6,#C23C8E,#FE6347);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;padding:1px 0;animation:text_animate 3s ease-in-out infinite alternate}
 @keyframes text_animate{0%{background-position:0% center}100%{background-position:100% center}}
 
@@ -161,7 +158,7 @@ p{margin:0 0 16px}
 .back-link:hover{color:var(--violet)}
 .page-lead.dark .back-link{color:rgba(255,255,255,.62)}
 
-/* hero collage (3 tiles, big outer radii — mirrors rushtranslate collage) */
+
 .collage{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:10px;height:592px;perspective:1400px}
 .collage .tile{position:relative;overflow:hidden;border-radius:18px;transform-style:preserve-3d;will-change:transform;transition:transform .9s cubic-bezier(.2,.8,.2,1),opacity .9s}
 .collage .tile img{width:100%;height:100%;object-fit:cover}
@@ -615,7 +612,7 @@ p{margin:0 0 16px}
   .steps .step .num{background:var(--violet);color:#fff}.t-card .bg{opacity:1}.t-card .anim{filter:none}
 }
 
-/* ===================== 1:1 pass vs rushtranslate (Nov 10) ===================== */
+
 /* hero trust row — plain logo/glyph + text, no divider (ref .page-lead trust) */
 .trust-row{border-top:0;margin-top:64px;padding-top:0}
 .trust-row li{font-size:13px;color:var(--muted);gap:12px}

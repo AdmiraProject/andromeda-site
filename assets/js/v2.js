@@ -1,4 +1,3 @@
-/* Andromeda v2 interactions — rev.com behaviours 1:1 */
 (() => {
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;

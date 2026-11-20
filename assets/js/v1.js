@@ -1,4 +1,3 @@
-/* Andromeda v1 interactions — rushtranslate behaviours + cinematic scroll film */
 (() => {
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -21,7 +20,6 @@
   tog && tog.addEventListener('click', () => { const o = mnav.classList.toggle('is-open'); tog.setAttribute('aria-expanded', o); document.documentElement.style.overflow = o ? 'hidden' : ''; tog.innerHTML = o ? tog.dataset.close : tog.dataset.open; });
   mnav && mnav.addEventListener('click', (e) => { if (e.target.closest('[data-lead]')) { mnav.classList.remove('is-open'); document.documentElement.style.overflow = ''; tog.innerHTML = tog.dataset.open; } });
 
-  // --- FAQ accordion (one open at a time, like rushtranslate collapse) ---
   $$('.faq-card button').forEach((b) => b.addEventListener('click', () => {
     const card = b.closest('.faq-card'), open = !card.classList.contains('is-open');
     $$('.faq-card', card.parentElement).forEach((c) => { c.classList.remove('is-open'); $('button', c).setAttribute('aria-expanded', 'false'); });

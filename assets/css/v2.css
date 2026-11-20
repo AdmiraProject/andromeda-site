@@ -1,7 +1,4 @@
-/* ==========================================================================
-   Andromeda v2 — rev.com 1:1 system (Webflow Client-First), Andromeda brand.
-   Container 1280 · padding-global 5% · sections 112/80/48 · radii 4/8/12/16.
-   ========================================================================== */
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 :root{
   --bg:#efede7; --raised:#f5f5f4; --sunken:#e0dfdb; --inset:#cac9c5; --white:#ffffff;
@@ -426,7 +423,7 @@ html.dark-mode .fcta{--t1:#1c182d;--t2:#4b4a47;--bg:#efede7;--accent:#9E09C6;--a
 @media (max-width:1240px) and (min-width:992px){.hlink{padding:0 10px;font-size:15px}.hdr-r .txt{display:none}.hdr .logo{margin-right:12px}.hdr-r{gap:8px}}
 @media (max-width:1150px) and (min-width:992px){.hlinks>li:nth-child(4){display:none}.hdr-r .btn-sec{display:none}}
 
-/* ===================== rev 1:1 pass (Nov 10) ===================== */
+
 /* feature tab panes — product UI window on dark purple gradient (rev pane style) */
 .pane-ui{background:radial-gradient(90% 70% at 85% 10%,rgba(158,9,198,.55),transparent 60%),radial-gradient(70% 60% at 10% 95%,rgba(254,99,71,.28),transparent 60%),linear-gradient(160deg,#1d1027,#120b17 70%)}
 .pane.pane-ui::after{display:none}
